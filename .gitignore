@@ -1,0 +1,16 @@
+# Dependency directories
+node_modules/
+
+# Production builds
+dist/
+build/
+
+# Local env files
+.env*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large model dataset
+ml-model/IMDB Dataset.csv

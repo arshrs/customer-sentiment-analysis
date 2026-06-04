@@ -1,0 +1,84 @@
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+
+.container {
+  width: 500px;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+/* Title */
+
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Textarea */
+
+textarea {
+  width: 100%;
+  height: 120px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+/* Button */
+
+button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background: #0072ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056cc;
+}
+
+/* Result card */
+
+.result {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+/* Colors */
+
+.positive {
+  background: #28a745;
+}
+
+.negative {
+  background: #dc3545;
+}
+
+.neutral {
+  background: #6c757d;
+}
+
